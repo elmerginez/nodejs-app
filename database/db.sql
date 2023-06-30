@@ -4,7 +4,7 @@ USE database_links;
 
 --Tabla de users
 CREATE TABLE users(
-    id INT(11) NOT NULL,
+    id INT(11) NOT NULL AUTO_INCREMENT,
     username VARCHAR(16) NOT NULL,
     password VARCHAR(100) NOT NULL,
     fullname VARCHAR(100) NOT NULL
