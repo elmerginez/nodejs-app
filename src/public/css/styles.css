@@ -1,0 +1,27 @@
+body {
+    background: #f5f6f5;
+    font-family: 'Oswald', sans-serif;
+    overflow: hidden;
+}
+
+.index {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.masthead {
+    color: white;
+    min-height: 30rem;
+    width: 100%;
+    height: 100%;
+    padding-top: 8rem;
+    background: url(https://images.unsplash.com/photo-1597589827703-f4b68eafa0ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=772&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.masthead h1 {
+    font-size: 4rem;
+    
+}
